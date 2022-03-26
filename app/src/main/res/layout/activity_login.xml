@@ -16,7 +16,8 @@
         android:paddingStart="15dp"
         android:background="@drawable/edit"
         android:inputType="textEmailAddress"
-        android:layout_margin="14dp"/>
+        android:layout_margin="14dp"
+        />
 
     <EditText
         android:layout_width="match_parent"
@@ -26,6 +27,44 @@
         android:hint="Your Password"
         android:background="@drawable/edit"
         android:inputType="textPassword"
-        android:layout_margin="14dp"/>
+        android:layout_margin="14dp"
+        />
+    
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#577fbc"
+        android:text="Log In"
+        android:padding="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:layout_marginTop="70dp"
+        android:textSize="15sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Need Help?"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:textSize="15sp"
+        />
+
+
+
 
 </LinearLayout>
