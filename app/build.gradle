@@ -4,13 +4,13 @@ plugins {
 }
 
 android {
-    compileSdkVersion 31
-    buildToolsVersion "31.0.0"
+    compileSdk 32
+    buildToolsVersion '31.0.0 rc4'
 
     defaultConfig {
         applicationId "com.example.login_fb_binar_chp4_top3"
         minSdkVersion 22
-        targetSdkVersion 31
+        targetSdk 32
         versionCode 1
         versionName "1.0"
 
